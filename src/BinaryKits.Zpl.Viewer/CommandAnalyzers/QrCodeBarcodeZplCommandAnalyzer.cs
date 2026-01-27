@@ -53,7 +53,8 @@ namespace BinaryKits.Zpl.Viewer.CommandAnalyzers
                 FieldOrientation = fieldOrientation,
                 MagnificationFactor = magnificationFactor,
                 ErrorCorrection = errorCorrection,
-                MaskValue = maskValue
+                MaskValue = maskValue,
+                VerticalQuietZone = virtualPrinter.BarcodeInfo.Height
             });
 
             return null;
